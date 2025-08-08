@@ -50,7 +50,7 @@ const GiftsSection = () => {
   };
 
   const dressCodeData = [
-    { label: "Zapatilla", value: "36" },
+    { label: "Zapatilla", value: "37" },
     { label: "Pantalon", value: "28" },
     { label: "Polo", value: "S" },
     { label: "Color fav", value: "rojo vino, verde cemento" }

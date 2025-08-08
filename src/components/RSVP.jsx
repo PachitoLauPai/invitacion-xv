@@ -71,7 +71,7 @@ const RSVP = () => {
           transition={{ delay: 0.1 }}
           className="text-gray-600 mb-5 text-xs font-serif"
         >
-          Por favor confirmar tu asistencia antes del 10 de agosto
+          Por favor confirmar tu asistencia antes del 16 de agosto
         </motion.p>
         
         <motion.button 
