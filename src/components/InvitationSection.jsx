@@ -70,7 +70,7 @@ const InvitationSection = () => {
   };
 
   return (
-    <motion.section 
+    <motion.section
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
@@ -112,7 +112,7 @@ const InvitationSection = () => {
         </motion.button>
 
         {/* Título principal */}
-        <motion.h2 
+        <motion.h2
           variants={fadeInUp}
           className="text-5xl font-medium text-cement-green mb-6 font-special tracking-wider"
         >
@@ -120,7 +120,7 @@ const InvitationSection = () => {
         </motion.h2>
 
         {/* Texto descriptivo */}
-        <motion.p 
+        <motion.p
           variants={fadeInUp}
           className="text-gray-700 mb-8 leading-relaxed font-serif text-sm md:text-base"
         >
@@ -128,7 +128,7 @@ const InvitationSection = () => {
         </motion.p>
 
         {/* Fecha */}
-        <motion.div 
+        <motion.div
           variants={fadeInUp}
           className="my-8"
         >
@@ -140,10 +140,18 @@ const InvitationSection = () => {
             <span className="text-xl text-gray-500">|</span>
             <span className="text-4xl text-cement-green">2025</span>
           </div>
+          {/* Línea agregada para la hora */}
+          <motion.p
+            variants={fadeInUp}
+            transition={{ delay: 0.15 }}
+            className="text-gray-600 mt-3 text-lg font-serif"
+          >
+            A las <span className="text-dark-cement font-medium">9:00 PM</span>
+          </motion.p>
         </motion.div>
 
         {/* Firma */}
-        <motion.div 
+        <motion.div
           variants={fadeInUp}
           className="my-8"
         >
@@ -157,14 +165,14 @@ const InvitationSection = () => {
           <p className="mb-6 text-gray-600 text-sm font-serif">
             Se complacen en invitarles a celebrar los
           </p>
-          <motion.h3 
+          <motion.h3
             whileHover={{ scale: 1.05 }}
             className="text-6xl font-script text-cement-green my-4"
           >
             XV
           </motion.h3>
           <p className="text-gray-700 text-sm font-serif">de su hija:</p>
-          <motion.h4 
+          <motion.h4
             initial={{ scale: 0.9 }}
             whileInView={{ scale: 1 }}
             viewport={{ once: true }}
